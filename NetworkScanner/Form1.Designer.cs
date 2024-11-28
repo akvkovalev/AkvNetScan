@@ -1,4 +1,4 @@
-﻿using System.Windows.Forms;
+using System.Windows.Forms;
 
 namespace NetworkScanner
 {
@@ -52,7 +52,7 @@ namespace NetworkScanner
             this.cmdScan.Name = "cmdScan";
             this.cmdScan.Size = new System.Drawing.Size(112, 31);
             this.cmdScan.TabIndex = 0;
-            this.cmdScan.Text = "Скан";
+            this.cmdScan.Text = "Scan";
             this.cmdScan.UseVisualStyleBackColor = true;
             this.cmdScan.Click += new System.EventHandler(this.CmdScan_Click);
             // 
@@ -120,18 +120,18 @@ namespace NetworkScanner
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(365, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 20);
+            this.label1.Size = new System.Drawing.Size(121, 20);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Диапазон сканирования";
+            this.label1.Text = "Scanning range";
             // 
             // tblexp
             // 
-            this.tblexp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tblexp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tblexp.Location = new System.Drawing.Point(648, 108);
             this.tblexp.Name = "tblexp";
             this.tblexp.Size = new System.Drawing.Size(112, 32);
             this.tblexp.TabIndex = 9;
-            this.tblexp.Text = "Экспорт";
+            this.tblexp.Text = "Export";
             this.tblexp.UseVisualStyleBackColor = true;
             // 
             // groupBox1
